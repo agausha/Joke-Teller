@@ -12,5 +12,6 @@ async function getJokes() {
   const apiUrl = 'https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit';
   try {
     const response = await fetch(apiUrl);
+    const data = await response.json();
   } catch (error) {}
 }

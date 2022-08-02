@@ -9,4 +9,5 @@ function toggleButton() {
 // Get jokes from Joke API
 async function getJokes() {
   let Joke = '';
+  const apiUrl = 'https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit';
 }

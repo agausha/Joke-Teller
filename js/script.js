@@ -7,4 +7,6 @@ function toggleButton() {
 }
 
 // Get jokes from Joke API
-async function getJokes() {}
+async function getJokes() {
+  let Joke = '';
+}

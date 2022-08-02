@@ -23,17 +23,19 @@ function tellMe(joke) {
 
 // Get jokes from Joke API
 async function getJokes() {
-  let Joke = '';
+  let joke = '';
   const apiUrl = 'https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit';
   try {
     const response = await fetch(apiUrl);
     const data = await response.json();
     // Assign One or Two Part Joke
     if (data.setup) {
-      Joke = `${data.setup} ... ${data.delivery}`;
+      joke = `${data.setup} ... ${data.delivery}`;
     } else {
-      Joke = data.Joke;
+      joke = data.joke;
     }
+    // Passing Joke to VoiceRSS API
+    tellMe(joke);
     // Disable Button
     toggleButton();
   } catch (error) {

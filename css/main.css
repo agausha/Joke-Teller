@@ -36,6 +36,11 @@ button:hover {
           filter: brightness(95%);
 }
 
+button:active {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
 .container {
   height: 100vh;
   width: 100vw;

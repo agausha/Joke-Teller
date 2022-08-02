@@ -40,6 +40,7 @@ body {
 @media screen and (max-width: 1000px) {
   .container {
     background-position: center center;
+    background-size: cover;
   }
 }
 /*# sourceMappingURL=main.css.map */

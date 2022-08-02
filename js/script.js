@@ -21,5 +21,10 @@ async function getJokes() {
     }
     // Disable Button
     toggleButton();
-  } catch (error) {}
+  } catch (error) {
+    // Catch Error Here
+  }
 }
+
+// Event Listeners
+button.addEventListener('click', getJokes);

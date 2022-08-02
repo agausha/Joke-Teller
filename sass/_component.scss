@@ -12,4 +12,6 @@ button {
   box-shadow: 2px 2px 20px 10px $color-primary-lighter-dark;
 }
 
-button:hover {}
+button:hover {
+  filter: brightness(95%);
+}

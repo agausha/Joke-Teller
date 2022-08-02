@@ -31,6 +31,11 @@ button {
           box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
 }
 
+button:hover {
+  -webkit-filter: brightness(95%);
+          filter: brightness(95%);
+}
+
 .container {
   height: 100vh;
   width: 100vw;

@@ -19,5 +19,7 @@ async function getJokes() {
     } else {
       Joke = data.Joke;
     }
+    // Disable Button
+    toggleButton();
   } catch (error) {}
 }

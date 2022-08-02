@@ -10,5 +10,7 @@ function toggleButton() {
 async function getJokes() {
   let Joke = '';
   const apiUrl = 'https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit';
-  try {} catch (error) {}
+  try {
+    const response = await fetch(apiUrl);
+  } catch (error) {}
 }

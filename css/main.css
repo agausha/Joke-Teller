@@ -25,6 +25,7 @@ button {
   font-size: 20px;
   color: white;
   background: #ff3381;
+  border: none;
 }
 
 .container {

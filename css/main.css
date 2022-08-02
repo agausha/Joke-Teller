@@ -47,6 +47,7 @@ button:disabled {
           filter: brightness(30%);
 }
 
+/* Media Query: Tablet or Smaller */
 .container {
   height: 100vh;
   width: 100vw;

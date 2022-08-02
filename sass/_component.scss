@@ -20,4 +20,6 @@ button:active {
   transform: scale(0.98);
 }
 
-button:disabled {}
+button:disabled {
+  cursor: default;
+}

@@ -5,3 +5,6 @@ const audioElement = document.getElementById('audio');
 function toggleButton() {
   button.disabled = !button.disabled;
 }
+
+// Get jokes from Joke API
+async function getJokes() {}

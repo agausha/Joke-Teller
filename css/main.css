@@ -32,5 +32,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background: url("/robot.gif");
 }
 /*# sourceMappingURL=main.css.map */

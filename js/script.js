@@ -13,5 +13,9 @@ async function getJokes() {
   try {
     const response = await fetch(apiUrl);
     const data = await response.json();
+    // Assign One or Two Part Joke
+    if (data.setup) {
+      Joke = `${data.setup} ... ${data.delivery}`;
+    }
   } catch (error) {}
 }

@@ -16,6 +16,8 @@ async function getJokes() {
     // Assign One or Two Part Joke
     if (data.setup) {
       Joke = `${data.setup} ... ${data.delivery}`;
+    } else {
+      Joke = data.Joke;
     }
   } catch (error) {}
 }

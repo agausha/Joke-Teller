@@ -43,6 +43,8 @@ button:active {
 
 button:disabled {
   cursor: default;
+  -webkit-filter: brightness(30%);
+          filter: brightness(30%);
 }
 
 .container {
